@@ -1,0 +1,761 @@
+disbody {
+    color: #000ddd;
+    background: rgba(0, 0, 0, 0);
+}
+
+#great {
+    color: #000fff;
+    color: #f15025;
+}
+
+#visiting {
+    color: #000fff;
+    background: #f15025;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 20px;
+    width: 100px;
+    color: blue;
+    background: #000000;
+
+}
+
+.outer {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background: blue;
+}
+
+.index-banner {
+    height: 400px;
+    background: #f15025;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    color: #000ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+/* project 2 */
+.project-banner {
+    height: 400px;
+    background: #000000;
+    position: relative;
+    width: 100%;
+    display: flex;
+    object-fit: left;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.project-banner h2 {
+    color: white;
+    right: 10%;
+    bottom: 45%;
+    top: 40%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+}
+
+.project-banner h3,
+h6 {
+    color: white;
+    right: 15%;
+    bottom: 75%;
+    top: 70%;
+    position: absolute;
+    font-size: 25;
+    display: flex;
+}
+
+.project-banner h6 {
+    color: white;
+    right: 15%;
+    bottom: 75%;
+    top: 70%;
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    line-height: 60px;
+}
+ 
+/* projec 3 */
+.work-banner {
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: 60px;
+    position: relative;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 10px;
+    border-color: greenyellow;
+    border-radius: 100px;
+}
+
+.work-banner h1 {
+    line-height: 40px;
+    margin: 30px;
+    text-align: center;
+
+
+}
+
+#h {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 60px;
+}
+
+/* projec 4 */
+.future {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: chartreuse;
+}
+
+.tr {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    align-items: inherit;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+.tr h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+.services {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card {
+    height: 200px;
+    width: 100%;
+
+}
+
+.card h3 {
+    color: yellow;
+    background-color: #000000;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* project 5 */
+.joy {
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    line-height: 30pxpx;
+    border-bottom: 10px solid orangered;
+
+}
+
+.joy img {
+    align-items: center;
+    height: 100px;
+}
+
+h2 {
+    color: yellow;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.pro{
+    background-color: chartreuse;
+    height: 400px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.week{
+    text-align: center;
+    font-weight: bolder;
+}
+.week h2{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 10px;
+}
+.week p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.tb{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.ba p{
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+}
+ /* project 6 */
+.tra{
+    height: 400px;
+    width: 85%;
+    color: black;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 2%;
+}
+.hub{
+    margin-right: 0px;
+}
+.hub h1,p{
+    flex-direction: row;
+    font-size: 30px;
+    padding-left: 15px;
+    
+    
+}
+.hub h1{
+    font-size: 45px;
+    font-weight: bolder;
+    
+}
+.hub p{
+   margin-bottom: 40px;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+   font-size: 25px;
+   font-weight: bold;
+   position: absolute;
+   
+}
+.tra img{
+    height: 400px;
+}
+/* project 7 */
+.deep{
+    height: 200px;
+    width: 50%;
+    background-color: rgba(165, 179, 110, 0.926);
+    position: relative;
+    display: flex;
+    color: #000000;
+}
+.deep h5{
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-size-adjust: 5px;
+    padding-left: 30%;
+}
+.youth{
+    height: 200px;
+    width: 50%;
+    background-color: rgba(106, 16, 16, 0.815);
+    position: relative;
+    
+   
+}
+.youth p,h2{
+    flex-direction: column;
+    position: absolute;
+}
+.youth h2{
+    padding-left: 87%;
+}
+.youth p{
+    background-color: red;
+    color: white;
+    border:10px double yellow ;
+    border-radius: 100%;
+    text-align: center;
+
+}
+.new{
+    flex-direction: row;
+    display: flex;
+}
+.camp{
+    height: 300px;
+    width: 100%;
+    background: #f15025;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+}
+.gr{
+    position: absolute;
+    flex-direction: column;
+    color: black;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* project 8 */
+/* .gen{
+    height: 400px;
+    width: 100%;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.ic h2{
+    color: black;
+    background-color: yellow;
+    height: 150px;
+    width: 50%;
+}
+.ic{
+    position: absolute;
+    flex-direction: column;
+}
+.ict{
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    
+} */
+
+/* project 9 */
+.jet{
+    width: 60%;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    border: 2px double red;
+    
+}
+.br{
+    height: 400px;
+    width: 53%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.br h1{
+    height: 150px;
+    width: 50%;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.gram{
+    height: 400px;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+}
+.gram h3,p{
+    display: flex;
+    font-style: normal;
+    font-size: 16px;
+    padding-right: 10px;
+    
+}
+
+/* project 10 */
+.lap{
+    min-height: 500px;
+    background: linear-gradient(to left,purple, red);
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    border-top: 8px solid red;
+    border-bottom: 2px solid red;
+}
+.lap h4{
+    text-align: center;
+    font-size: 30px;
+    padding-top: -20%;
+}
+.intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: -20px;
+}
+.intro:hover{
+    color: green;
+}
+.han:hover{
+ color: blue;
+}
+.han{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    list-style: circle;
+    justify-content: space-evenly;
+    gap: 70px;
+
+}
+.mate img{
+    border: 1px solid red;
+    border-radius: 4%;
+    /* transform: skewX(40px); */
+}
+.via{
+    background: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10px;
+    line-height: -5px;
+}
+.rc{
+    background-color: white;
+}
+.rc img{
+    padding-bottom: 10px;
+}
+.cs{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.tion{
+    font-size: 20px;
+}
+.is{
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+color: black;
+background-color: linear-gradient(to right, purple green red);
+display: inline-block; 
+padding: 12px 30px;
+text-decoration: none;
+cursor: pointer;
+}
+.takeem{
+    background: white;
+}
+
+
+/* NEW PROJECT */
+.power{
+    min-height: 600px;
+    background: linear-gradient(to top left,purple,red, rgb(214, 14, 198));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: green;
+    /* display: flex;
+    flex-direction: column; */
+}
+.power h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.power p{
+ color: lightseagreen;
+}
+.power:hover{
+   color: #000ddd;
+}
+.pos{
+    min-height: 200px;
+    color: white;
+    background: #000000;
+}
+.pos h1{
+    font-size: 100px;
+}
+.pos h4{
+    font-size: 30px;
+}
+.pos:hover{
+    color: crimson;
+}
+.cash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    font-size: 30px;
+    list-style: none;
+}
+.cash:hover{
+    color: blue;
+}
+.electric{
+    /* height: 300px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.electric h1{
+    background-color: green;
+}
+.electric p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.ov{
+    background-color: white;
+}
+.pow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+.pow h2{
+    background-color: green;
+    color: blue;
+}
+.lis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    font-size: 25px;
+    color: aqua;
+}
+.motto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+.motto h2{
+    background-color: green;
+    color: #000ddd;
+}
+
+/* NEW PROJECT */
+.naf{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-decoration: none;
+    word-spacing: 15px;
+}
+.graduate{
+    min-height: 600px;
+    max-width: 100%;
+    background: rgba(94, 163, 228, 0.815) url(./graduation.jpg);
+    position: relative;
+}
+.naf h1{
+    text-align: start;
+}
+#oran{
+    font-size: 40px;
+    padding-right: 90px;
+}
+#oran:hover{
+    color: #f15025;
+}
+#label{
+   padding-left: 10px;
+   margin-left: 10px;
+}
+
+.naf a{
+    text-decoration: none;
+    padding-top: 0px;
+    color: white;
+}
+.web{
+    max-width: 40%;
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.web h1{
+    font-size: 50px;
+    font-family: muli;
+    
+}
+#dev{
+    color: red;
+}
+.web a{
+    background: orangered;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid orangered;
+    border-radius: 5%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin-left: 15px;
+}
+.web:hover{
+    color: wheat;
+}
+
+.plac{
+    max-height: 450px;
+    max-width: 30%;
+    border: 1px solid black;
+    border-radius: 5%;
+    background: rgba(0, 0, 1, 0.9);
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    margin-left: 70%;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    transition-property: background; 
+    transition-duration: 5s;
+    /* transition-delay: 1s; */
+}
+.plac:hover{
+    background: coral;
+    border-radius: 50%;
+}
+.plac h4{
+    background: white;
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 45px;
+    text-transform: capitalize;
+}
+.plac a{
+    background:orangered;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 70px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.plac h3{
+    font-size: 15px;
+}
+.circle{
+    border: 1px solid white;
+    border-radius: 100%;
+    /* font-size: 5px; */
+    padding: 5 px 5px;
+}
+
